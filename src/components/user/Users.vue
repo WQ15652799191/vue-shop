@@ -280,7 +280,6 @@ export default {
         return this.$message.error('获取角色列表失败')
       }
       this.rolesList = res.data
-      console.log(this.rolesList)
       this.setRoleDialogVisible = true
     },
     async saveRoleInfo () {
