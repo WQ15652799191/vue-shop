@@ -68,7 +68,6 @@ export default {
       }
       this.goodslist = res.data.goods
       this.total = res.data.total
-      console.log(res.data)
     },
     handleSizeChange (newsize) {
       this.queryInfo.pagesize = newsize
