@@ -200,6 +200,7 @@ export default {
       }
       this.userlist = res.data.users
       this.total = res.data.total
+      console.log(this.$router.options.routes)
     },
     handleSizeChange (newSize) {
       this.queryInfo.pagesize = newSize
