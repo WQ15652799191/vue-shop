@@ -58,7 +58,7 @@ export default {
     }
   },
   methods: {
-    // 退出
+    // 退出登录
     handleLogout () {
       window.sessionStorage.clear()
       this.$router.push('/login')
